@@ -1,0 +1,46 @@
+# Unity YAML files - ensure consistent line endings
+*.yaml text eol=lf
+*.yml text eol=lf
+
+# Unity scene files
+*.unity text eol=lf
+
+# Unity prefab files  
+*.prefab text eol=lf
+
+# Unity text assets
+*.txt text eol=lf
+
+# Unity shader files
+*.shader text eol=lf
+
+# Unity compute shader files
+*.compute text eol=lf
+
+# Unity mat files
+*.mat text eol=lf
+
+# Unity animator files
+*.controller text eol=lf
+
+# Unity physics material files
+*.physicMaterial text eol=lf
+
+# Unity terrain files
+*.terrainlayer text eol=lf
+
+# Protect Unity meta files
+*.meta merge=unityyamlmerge
+
+# Binary files (keep as-is)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.exr binary
+*.tga binary
+*.psd binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.fbx binary
+*.blend binary
